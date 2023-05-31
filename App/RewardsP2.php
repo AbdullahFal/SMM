@@ -214,6 +214,8 @@ if($_SERVER['REQUEST_METHOD'] === 'POST'){
         <button type="button" class="btn"><a href="Wallet.php">Wallet</a></button>
         <button type="button" class="btn"><a href="RewardsP2.php">Rewards</a></button>
         <button type="button" class="btn"><a href="LandingPage.php">Home</a></button>
+        <button type="button" class="btn" style="float: center;"><a href="https://arehaili-dev.itch.io/sparemymoney">Try Our Game!</a></button>
+
     </nav> 
 
 
