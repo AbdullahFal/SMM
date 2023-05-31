@@ -174,7 +174,10 @@ has a reward system, every time you transfer money to your saving account you ge
 you can then replace with discount coupons provided by the website sponsors. </h3>
 </div>
 
-<div class="footer-clean">
+
+
+</body>
+</html><div class="footer-clean">
         <footer>
             <div class="container">
                 <div class="row justify-content-center">
@@ -209,6 +212,3 @@ you can then replace with discount coupons provided by the website sponsors. </h
             </div>
         </footer>
     </div>
-
-</body>
-</html>
