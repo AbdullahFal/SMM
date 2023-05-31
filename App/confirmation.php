@@ -1,7 +1,7 @@
 <?php
 // Retrieve the message from the query parameter
 $message = isset($_GET['message']) ? $_GET['message'] : '';
-
+error_reporting(E_ERROR);
 // Display the message to the user
 ?>
 

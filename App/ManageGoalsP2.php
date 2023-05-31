@@ -2,22 +2,17 @@
 
 // Retrieve the message from the query parameter
 session_start();
-
+error_reporting(E_ERROR);
 if (!isset($_SESSION["user_id"])) {
    header("Location: login.php");
 
 }else{
     
-   
-    require_once "database.php";
-    $sql = "SELECT * FROM users
-            WHERE id = {$_SESSION["user_id"]}";
-              $result = mysqli_query($conn, $sql);
-              $user = mysqli_fetch_array($result, MYSQLI_ASSOC);
-    
-    
-    
-    
+  require_once "database.php";
+  $sql = "SELECT * FROM users
+  WHERE id = {$_SESSION["user_id"]}";
+  $result = mysqli_query($conn, $sql);
+  $user = mysqli_fetch_array($result, MYSQLI_ASSOC);
 }
 $user_id= $user['id'];
 // Connect to the database

@@ -1,6 +1,6 @@
 <?php
 session_start();
-
+error_reporting(E_ERROR);
 if (!isset($_SESSION["user_id"])) {
    header("Location: login.php");
 
